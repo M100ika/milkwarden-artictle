@@ -1,0 +1,38 @@
+{
+  "source_file": "sessions_rows.csv",
+  "source_sha256": "dc51503d1ba754991596429ebcb1fb53a77f39b85500fd5033bc3cd1de2644ce",
+  "rows": 6817,
+  "event_date_range": [
+    "2026-05-10",
+    "2026-09-21"
+  ],
+  "local_timezone": "UTC+05:00 (assumed)",
+  "imputed_rows": 0,
+  "flags": {
+    "bucket_change": 166,
+    "device_zero_review": 5,
+    "duration_over_2h_review": 139,
+    "invalid_end_clock": 5,
+    "invalid_start_clock": 12,
+    "log_final_mismatch_review": 744,
+    "log_initial_mismatch_review": 511,
+    "missing_distance": 3659,
+    "missing_rfid": 3658,
+    "missing_weight_log": 4114,
+    "negative_weight_delta": 912,
+    "rfid_format_review": 1,
+    "single_point_weight_log": 766,
+    "test_record": 2,
+    "weight_scale_or_outlier_review": 13,
+    "zero_distance_review": 3158,
+    "zero_duration": 21,
+    "zero_weight_delta": 3576
+  },
+  "parameters": {
+    "clock_earliest": "2026-01-01T00:00:00+00:00",
+    "clock_latest": "2026-09-22T14:24:32.231363+00:00",
+    "weight_scale_review_threshold": 100,
+    "duration_review_s": 7200,
+    "log_endpoint_review_kg": 0.15
+  }
+}

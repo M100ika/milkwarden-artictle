@@ -1,0 +1,38 @@
+{
+  "provenance": "synthetic_simulation",
+  "seed": 20260921,
+  "rows": 3472,
+  "date_range": [
+    "2026-05-17",
+    "2026-09-21"
+  ],
+  "timezone": "UTC+05:00",
+  "cows": 16,
+  "milkings_per_cow_per_day_assumed": 2,
+  "devices_assumed": 4,
+  "simulated_outage_inclusive": [
+    "2026-06-24",
+    "2026-07-10"
+  ],
+  "outage_cause": "fictional_scenario_not_verified_engineering_history",
+  "additional_record_loss_probability": 0.025,
+  "units": {
+    "weight_initial": "kg",
+    "weight_final": "kg",
+    "milk_mass_kg": "kg",
+    "weight_log_g": "g",
+    "weight_log_t": "seconds_since_start"
+  },
+  "initial_daily_yield_range_kg_assumed": [
+    10.5,
+    18.5
+  ],
+  "daily_exponential_decline_range_assumed": [
+    0.0005,
+    0.002
+  ],
+  "model": "Invented cow baselines, gradual decline, correlated daily variation, morning/evening split.",
+  "warning_ru": "Полностью выдуманные данные. Не являются измерениями, восстановлением реальных надоев или доказательством результатов эксперимента.",
+  "original_source_sha256": "dc51503d1ba754991596429ebcb1fb53a77f39b85500fd5033bc3cd1de2644ce",
+  "source_usage": "Only CSV column names were reused; no observed rows or RFID identities were copied."
+}
